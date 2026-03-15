@@ -1,5 +1,9 @@
 # Ariadne
 
+In Greek myth, Ariadne gives Theseus the thread that lets him enter the labyrinth, reach the center, and find his way back out.
+
+That is the core idea here: not just a map, but a path.
+
 There is a strange gap in modern computing.
 
 We can summon a car across a city, route a package across an ocean, and watch a storm move across a continent in real time. But when a person steps through a doorway into an unfamiliar building, the digital world goes silent. The map ends at the entrance. The final distance, often the most human distance, is left to hesitation, guesswork, and social friction.
@@ -14,7 +18,7 @@ This is the ambition behind Ariadne: to make indoor navigation feel as natural, 
 
 Buildings are full of invisible complexity.
 
-Homes change shape through habit. Offices grow into mazes through compromise. Hospitals, schools, campuses, hotels, stations, and public venues all ask the same question in different forms: now that you are here, how do you find your way without confusion, interruption, or dependence on someone else?
+Offices grow into mazes through compromise. Hospitals, schools, campuses, hotels, stations, and public venues all ask the same question in different forms: now that you are here, how do you find your way without confusion, interruption, or dependence on someone else?
 
 Most digital tools answer that question poorly because they were not designed for the lived reality of indoor space. GPS fades. Static floor maps demand interpretation. Search results tell you what exists, not how to get there. The burden stays on the person.
 
@@ -30,7 +34,6 @@ You enter a place. You identify the space. You choose where you want to go. The 
 
 Over time, Ariadne could become a new kind of layer between people and place:
 
-- a memory for environments
 - a guide for first-time visitors
 - a tool for families, teams, and organizations
 - a bridge between architecture and interaction
@@ -42,11 +45,11 @@ The first expression of that idea is navigation. The larger opportunity is orien
 
 Ariadne aims to make indoor spaces legible.
 
-That means more than drawing routes. It means giving buildings a practical, living interface. A room is not just a label on a floor plan. An entrance is not just a doorway. A hallway is not just empty area between destinations. Each part of a space can become meaningful when software understands where a person is, where they intend to go, and how much guidance is actually helpful.
+That means more than drawing routes. It means giving buildings a practical interface for movement and intent. A room is not just a label on a floor plan. An entrance is not just a doorway. A hallway is not just empty area between destinations. Each part of a space becomes more useful when software understands where a person is, where they intend to go, and how much guidance is actually helpful.
 
 In that future, Ariadne could power experiences such as:
 
-- effortless arrival in offices, homes, and shared spaces
+- effortless arrival in offices and shared spaces
 - persistent indoor wayfinding that begins from recognized entry points
 - lightweight mapping that does not require specialized infrastructure
 - collaborative spatial understanding across trusted devices and users
@@ -75,13 +78,12 @@ If Ariadne succeeds, the technology will matter enormously and feel almost absen
 
 ## The long horizon
 
-Today, indoor navigation is fragmented across brittle systems, enterprise tools, venue-specific apps, and one-off mapping efforts. The long horizon for Ariadne is a unified spatial layer for the places people actually inhabit every day.
+Today, indoor navigation is fragmented across brittle systems, enterprise tools, venue-specific apps, and one-off mapping efforts. The long horizon for Ariadne is a unified spatial layer for the places people actually move through every day.
 
 That horizon is much larger than the first implementation.
 
 It includes:
 
-- personal spaces that remember how you move through them
 - shared spaces that welcome visitors without explanation
 - workplaces that reduce friction the moment you arrive
 - environments that can be understood through intent, not just coordinates
@@ -99,4 +101,4 @@ Ariadne will not begin by solving every building. It will begin by solving one j
 
 That is how this repository should be read.
 
-Not as the finished product, and not as a modest utility, but as the early construction of a much larger idea: that the spaces around us can become understandable in real time, and that finding your way indoors can one day feel as natural as knowing where to look next.
+Not as the finished product, and not as a modest utility, but as the early construction of a larger idea: that buildings should be able to offer a path, and that finding your way indoors can one day feel as natural as stepping forward.
