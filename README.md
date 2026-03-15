@@ -27,7 +27,7 @@ The best version of this experience is calm and direct:
 
 Ariadne aims to make indoor spaces legible.
 
-In a legible building, the space does not feel mute. An entrance means something. A hallway is the thread towards your destination. Software understands enough about where you are, where you intend to go, through this knowledege the environment begins to explain itself.
+In a legible building, the space does not feel mute. An entrance means something. A hallway is no longer empty distance between rooms, but part of a continuous thread leading you forward. Software understands enough about where you are and where you intend to go that the environment begins to explain itself.
 
 Through this, Ariadne becomes more than a navigation tool. It becomes a new interface for place itself.
 
@@ -59,6 +59,8 @@ Outdoor navigation changed how people experience cities. It changed what felt re
 
 Indoor orientation is still waiting for that shift.
 
-The long horizon for Ariadne is a spatial layer for the buildings people move through every day: workplaces, institutions, public venues, and shared environments that should be easier to understand the moment you enter them.
+The long horizon for Ariadne is a spatial layer for the buildings people move through every day: workplaces, institutions, public venues, and shared environments that should become understandable the moment you enter them.
 
-If outdoor maps taught software how to understand roads, Ariadne is software that understand arrival, intent, and movement inside buildings.
+If outdoor maps taught software how to understand roads, Ariadne is an attempt to teach software how to understand arrival, intent, and movement inside buildings.
+
+In that sense, the name is also the product thesis: the value is not just knowing the structure of the labyrinth, but having a thread you can follow through it.
