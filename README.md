@@ -4,10 +4,6 @@
 
 In Greek myth, Ariadne gives Theseus the thread that lets him enter the labyrinth, reach the center, and find his way back out.
 
-That is why this project is called Ariadne.
-
-The ambition is not merely to show a map of a place. It is to offer a path through it.
-
 ## The Problem
 
 Modern software is extraordinarily good at helping us move through the world until we reach a door.
