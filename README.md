@@ -1,68 +1,102 @@
 # Ariadne
 
-Ariadne is a local-first iPhone app for indoor AR navigation.
+There is a strange gap in modern computing.
 
-The current project scope is intentionally narrow: prove that one device can localize from a fixed start point, select a saved destination, and guide the user through one real indoor space. The broader MVP then extends that same flow to two spaces: `Home` and `Work`.
+We can summon a car across a city, route a package across an ocean, and watch a storm move across a continent in real time. But when a person steps through a doorway into an unfamiliar building, the digital world goes silent. The map ends at the entrance. The final distance, often the most human distance, is left to hesitation, guesswork, and social friction.
 
-## Project goals
+Ariadne begins with that failure.
 
-- map one floor per space
-- use a fixed QR-coded start point for each space
-- save named destinations locally on device
-- guide the user from the start point to a selected destination with simple AR cues
-- recover from failure by returning the user to the start point and retrying
+It is a project about restoring orientation indoors. Not as another dense layer of pins, menus, and floor-plan controls, but as something simpler: a calm sense of direction exactly when you need it. A person arrives. The space recognizes where the journey can begin. The destination is clear. The path reveals itself.
 
-## Current scope
+This is the ambition behind Ariadne: to make indoor navigation feel as natural, trustworthy, and invisible as outdoor navigation should have always felt.
 
-The repository currently defines two planning tracks:
+## Why this matters
 
-- the smallest real-world validation spike in [docs/planning/ariadne-tech-spike.md](/Users/nunez/code/ios/Ariadne/docs/planning/ariadne-tech-spike.md)
-- the broader two-space MVP in [docs/planning/ariadne-mvp-plan.md](/Users/nunez/code/ios/Ariadne/docs/planning/ariadne-mvp-plan.md)
+Buildings are full of invisible complexity.
 
-The higher-level project direction is summarized in [ariadne-app-plan.md](/Users/nunez/code/ios/Ariadne/ariadne-app-plan.md).
+Homes change shape through habit. Offices grow into mazes through compromise. Hospitals, schools, campuses, hotels, stations, and public venues all ask the same question in different forms: now that you are here, how do you find your way without confusion, interruption, or dependence on someone else?
 
-## Product shape
+Most digital tools answer that question poorly because they were not designed for the lived reality of indoor space. GPS fades. Static floor maps demand interpretation. Search results tell you what exists, not how to get there. The burden stays on the person.
 
-For MVP, Ariadne is:
+Ariadne aims to reverse that burden.
 
-- local-first
-- single-device
-- one floor per space
-- one fixed start point per space
-- one mapper workflow and one navigator workflow in the same app
+The environment should not feel mute. Arrival should not feel like losing context. Navigation should not collapse at the threshold between outside and inside.
 
-For MVP, Ariadne is not:
+## The idea
 
-- a cloud-synced product
-- a multi-user shared mapping system
-- a multi-floor indoor navigation platform
-- a generalized building management tool
+At its best, Ariadne is not an app you study. It is an app that helps you continue.
 
-## Technical direction
+You enter a place. You identify the space. You choose where you want to go. The interface recedes. Guidance becomes immediate, spatial, and humane.
 
-The current intended stack is:
+Over time, Ariadne could become a new kind of layer between people and place:
 
-- SwiftUI for app UI
-- SwiftData for local persistence
-- ARKit and RealityKit for AR anchoring and guidance
-- AVFoundation for QR scanning when needed
+- a memory for environments
+- a guide for first-time visitors
+- a tool for families, teams, and organizations
+- a bridge between architecture and interaction
+- a platform for contextual indoor experiences that begin with wayfinding and expand into presence
 
-Most app shell, persistence, and flow work should be testable in simulator. AR anchoring, relocalization, and guidance quality must be validated on an iPhone.
+The first expression of that idea is navigation. The larger opportunity is orientation itself.
 
-## Repo layout
+## What Ariadne aims to become
 
-- `Ariadne/`: app source
-- `Ariadne.xcodeproj/`: Xcode project
-- `docs/planning/`: planning documents
-- `AGENTS.md`: repo-specific agent workflow rules
+Ariadne aims to make indoor spaces legible.
 
-## Next step
+That means more than drawing routes. It means giving buildings a practical, living interface. A room is not just a label on a floor plan. An entrance is not just a doorway. A hallway is not just empty area between destinations. Each part of a space can become meaningful when software understands where a person is, where they intend to go, and how much guidance is actually helpful.
 
-The recommended next implementation target is the tech spike:
+In that future, Ariadne could power experiences such as:
 
-- one space: `Home`
-- one start point: the door
-- one destination: `office`
-- one QR scan flow
-- one persisted destination anchor
-- one simple AR guidance primitive
+- effortless arrival in offices, homes, and shared spaces
+- persistent indoor wayfinding that begins from recognized entry points
+- lightweight mapping that does not require specialized infrastructure
+- collaborative spatial understanding across trusted devices and users
+- accessible navigation flows for people who benefit from explicit indoor guidance
+- context-aware indoor interactions that begin with location but extend to memory, task, and presence
+
+The goal is not to put more software between people and the world.
+
+The goal is to let the world become more understandable through software, with less friction and less demand for interpretation.
+
+## Product philosophy
+
+Ariadne should feel inevitable in use.
+
+Not showy. Not overloaded. Not trapped behind professional tools built for specialists. The best version of this product would have the confidence of great consumer software: direct, calm, forgiving, and precise.
+
+It should behave as though the hardest parts have been quietly solved:
+
+- orientation should feel immediate
+- choices should feel minimal
+- guidance should feel clear without becoming noisy
+- failure should feel recoverable
+- the system should respect the difference between a place that is mapped and a place that is merely described
+
+If Ariadne succeeds, the technology will matter enormously and feel almost absent.
+
+## The long horizon
+
+Today, indoor navigation is fragmented across brittle systems, enterprise tools, venue-specific apps, and one-off mapping efforts. The long horizon for Ariadne is a unified spatial layer for the places people actually inhabit every day.
+
+That horizon is much larger than the first implementation.
+
+It includes:
+
+- personal spaces that remember how you move through them
+- shared spaces that welcome visitors without explanation
+- workplaces that reduce friction the moment you arrive
+- environments that can be understood through intent, not just coordinates
+- interfaces that shift from flat map metaphors to embodied guidance
+
+Outdoor navigation changed how cities are used.
+
+Indoor orientation, if done well, can change how buildings are experienced.
+
+## Building toward that future
+
+Every meaningful product starts by making one promise true.
+
+Ariadne will not begin by solving every building. It will begin by solving one journey well enough that the larger future stops sounding theoretical.
+
+That is how this repository should be read.
+
+Not as the finished product, and not as a modest utility, but as the early construction of a much larger idea: that the spaces around us can become understandable in real time, and that finding your way indoors can one day feel as natural as knowing where to look next.
