@@ -1,7 +1,5 @@
 # Ariadne
 
-## The Name
-
 In Greek myth, Ariadne gives Theseus the thread that lets him enter the labyrinth, reach the center, and find his way back out.
 
 ## The Problem
